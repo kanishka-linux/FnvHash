@@ -4,6 +4,12 @@
 
 ## Installation
 
+```elixir
+def deps do
+    {:fnv_hash, git: "https://github.com/kanishka-linux/FnvHash.git", tag: "v0.1.0"}
+end
+```
+
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `fnv_hash` to your list of dependencies in `mix.exs`:
 
