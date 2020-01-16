@@ -21,6 +21,12 @@ def deps do
 end
 ```
 
+## Usage
+
+```
+FnvHash.fnv64a("hello.world")
+```
+
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/fnv_hash](https://hexdocs.pm/fnv_hash).
